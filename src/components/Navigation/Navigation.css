@@ -1,0 +1,12 @@
+.Navigation {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    text-align: center;
+    padding: 0 10px;
+    font-size: 1.2em;
+}
+
+.Navigation__cart {
+    margin-left: auto;
+}

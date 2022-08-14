@@ -1,0 +1,45 @@
+.Body {
+    display: flex;
+}
+
+.Body__brands {
+    flex: 1;
+}
+
+.Body__catalog {
+    flex: 6;
+    padding: 10px;
+}
+
+.catalog__items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.CatalogItem {
+    flex-basis: 100%;
+    flex: 0 1 15em;
+    transition-duration: 200ms;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.CatalogItem:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.CatalogItem__text {
+    margin-top: auto;
+}
+
+.CatalogItem__picture {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}

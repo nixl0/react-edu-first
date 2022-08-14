@@ -1,0 +1,15 @@
+.Brands__list {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    border-right: 1px solid;
+    font-size: 1.2em;
+}
+
+.Brands__brand {
+    white-space: nowrap;
+}
+
+.Brands__brand:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
